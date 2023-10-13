@@ -1,17 +1,17 @@
 export default {
   /** -------------------------------------------------以下必须修改----------------------------------------------------- */
 
-  githubName: "yunyuyuan",                                     // 必须修改，github账户名
+  githubName: "7nuns",                                     // 必须修改，github账户名
 
 
 
   /** -------------------------------------------------以下可选修改----------------------------------------------------- */
 
-  title: "yun yu yuan",                                        // 网站标题
-  nickName: "云与原",                                           // 昵称
-  domain: "https://blog.yunyuyuan.net",                        // rss域名
-  SEO_title: " - yunyuyuan blog",                              // 搜索引擎显示的标题
-  SEO_keywords: "yunyuyuan,yunyuyuan's blog,云与原,云与原的博客", // keywords meta header
+  title: "7nuns",                                        // 网站标题
+  nickName: "7NUNS",                                           // 昵称
+  domain: "https://7nuns,us",                        // rss域名
+  SEO_title: " - 7NUNS",                              // 搜索引擎显示的标题
+  SEO_keywords: "忏悔室", // keywords meta header
   CloudflareAnalyze: "",                                       // cloudflare的统计，https://developers.cloudflare.com/analytics/web-analytics
   CommentRepoId: "",                                           // https://giscus.app/zh-CN
   CommentDiscussionCategoryId: "",                             // https://giscus.app/zh-CN
@@ -25,7 +25,7 @@ export default {
     database: "nuxt3-blog",
     collection: "visitors",
     initialVisitors: 1,                                        // 如果设置成10000，那么发一篇文章立马就有10000个浏览量！
-    visitFromOwner: false                                      // 网站拥有者访问时，是否增加浏览量
+    visitFromOwner: true                                      // 网站拥有者访问时，是否增加浏览量
   },
   themeColor: "#2aa0bb",                                       // 主题色
   defaultLang: "zh",                                           // default language, "zh" and "en" are supported currently
@@ -35,5 +35,5 @@ export default {
 
   /** -------------------------------------------------以下不可修改----------------------------------------------------- */
 
-  githubRepo: "nuxt3-blog"                                    // 勿修改
+  githubRepo: "7-nuns"                                    // 勿修改
 };
