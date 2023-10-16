@@ -13,8 +13,8 @@ export default {
   SEO_title: " - 7NUNS",                              // 搜索引擎显示的标题
   SEO_keywords: "忏悔室", // keywords meta header
   CloudflareAnalyze: "",                                       // cloudflare的统计，https://developers.cloudflare.com/analytics/web-analytics
-  CommentRepoId: "",                                           // https://giscus.app/zh-CN
-  CommentDiscussionCategoryId: "",                             // https://giscus.app/zh-CN
+  CommentRepoId: "R_kgDOKfs5DQ",                                           // https://giscus.app/zh-CN
+  CommentDiscussionCategoryId: "DIC_kwDOKfs5Dc4CaF26",                             // https://giscus.app/zh-CN
 
   Comment: {                                                   // 是否开启评论，请先设置上面的 CommentRepoId 和 CommentDiscussionCategoryId
     articles: true,                                            // “文章”是否开启评论
